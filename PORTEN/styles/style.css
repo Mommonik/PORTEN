@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@400;700&family=Staatliches&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  color: gray;
+  font-family: "PT Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+.header-wrapper {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.number {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.number img {
+  height: 13px;
+  margin-right: 15px;
+}
+.registration {
+  display: flex;
+  align-items: center;
+}
+.registration svg {
+  margin-right: 10px;
+}
+.registration a {
+  text-decoration: none;
+  color: gray;
+}
+nav {
+  background-color: #0f0f0f;
+}
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  width: 65%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.nav-links a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "PT Sans", sans-serif;
+  padding: 28.6px 15px;
+}
+.nav-wrapper h1 {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1.5px;
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+.nav-link svg:first-child {
+  margin-left: 61px;
+}
+.nav-link > a {
+  margin-left: 44px;
+  color: white;
+}
+#welcome > img {
+  position: absolute;
+  width: 100%;
+  z-index: -10;
+}
+.welcome-wrapper {
+  color: white;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.welcome-wrapper hr {
+  width: 179px;
+  margin: 0 auto;
+}
+.main-text h1 {
+  margin: 0;
+  font-size: 68px;
+  letter-spacing: 4px;
+  line-height: 55px;
+  font-family: "Bebas Neue", cursive;
+}
+.main-text p {
+  margin: 0;
+  font-size: 22px;
+  line-height: 35px;
+  font-family: "PT Sans", sans-serif;
+}
+.main-text {
+  margin: 0 auto;
+  border: 4px white solid;
+  padding: 0;
+  width: 300px;
+  padding: 110px 10px 110px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-bottom {
+  width: 650px;
+  margin-top: 50px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#market {
+  display: flex;
+}
+.market-wrapper {
+  background-color: black;
+  width: 55%;
+  height: 568.24px;
+}
+.season {
+  font-family: "Playfair Display", serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.season hr {
+  border-width: 0.5;
+  background-color: white;
+  width: 90px;
+}
+.back-product {
+  width: 200px;
+  height: 264px;
+  background-color: #191b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product {
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.name-product {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.product p:last-child {
+  margin: 0;
+}
+.season-products {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.collection-wrapper {
+  width: 45%;
+  background-image: url(/images/Rectangle\ 8.png);
+}
+.collection-wrapper img {
+  position: absolute;
+  width: 684px;
+  height: 568px;
+  z-index: -1;
+}
+.collection-wrapper h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-top: 360px;
+}
+.collection-wrapper hr {
+  width: 80px;
+}
+.collection-wrapper button {
+  font-family: "Playfair Display", serif;
+  color: white;
+  border: 2px solid white;
+  outline: none;
+  background: none;
+  padding: 12px 30px;
+  margin-left: 285px;
+  margin-top: 20px;
+}
+.collection18-wrapper {
+  display: flex;
+}
+.img18 img {
+  width: 683px;
+  height: 471px;
+}
+.img18 {
+  height: 471px;
+}
+.text18 {
+  text-align: center;
+  width: 65%;
+  height: 471px;
+  color: white;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text18 p {
+  font-family: "PT Sans", sans-serif;
+}
+.text18 h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+.text18 hr {
+  width: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-cube {
+  width: 530px;
+}
+.text18 button {
+  text-transform: uppercase;
+  background: none;
+  border: 2px solid white;
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
+  padding: 15px 25px;
+  margin-top: 40px;
+}
+.products-wrapper {
+  background-color: black;
+}
+.products1-wrapper {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.products1-wrapper img {
+  width: 200px;
+  height: 264px;
+}
+.products-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: white;
+}
+.products-text hr {
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.products-text h1 {
+  margin: 0;
+  padding-top: 100px;
+}
+.products2 {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.brands-text {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.brands-text h1 {
+  margin: 0;
+  font-size: 29px;
+  padding-top: 40px;
+}
+.brands-text hr {
+  width: 90px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.brands-wrapper {
+  background-color: #0f0f0f;
+}
+.brands-img {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+.brands-img img {
+  width: 200px;
+}
+.footer-wrapper img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.footer1 h1,
+.footer2 h1,
+.footer3 h1 {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 24px;
+}
+.footer1 {
+  color: white;
+  width: 350px;
+}
+.footer1 p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+}
+.footer2 {
+  color: white;
+  width: 250px;
+  font-family: "PT Sans", sans-serif;
+}
+.footer-wrapper {
+  display: flex;
+}
+.footer2 button {
+  border: none;
+  background-color: #0f0f0f;
+  color: lightgray;
+  padding: 10px 15px;
+}
+.buttons1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.buttons2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer3 {
+  color: white;
+  width: 350px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+}
+.e-mail input {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  padding: 10px 20px;
+  outline: none;
+  color: white;
+}
+.e-mail input::-webkit-input-placeholder {
+  color: white;
+}
+.footer3 button {
+  font-family: "PT Sans", sans-serif;
+  color: lightgray;
+  background-color: black;
+  border: none;
+  padding: 10px 10px;
+}
+.e-mail {
+  display: flex;
+  vertical-align: middle;
+}
+.footer-flex {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+#floor {
+  background-color: black;
+}
+#floor p {
+  font-family: "PT Sans", sans-serif;
+  color: lightgray;
+  font-size: 11px;
+  margin: 9px 0;
+}
+#floor a {
+  color: lightgray;
+}
+.floor-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto;
+}
+.watch3 {
+  transform: rotate(78deg);
+  margin-top: 20px;
+}
+.watch2 {
+  text-decoration: none;
+  color: white;
+}
+.h1-nav a {
+  text-decoration: none;
+  color: white;
+}
+.registration a:hover {
+  text-decoration: underline;
+}
+.nav-links a:hover {
+  background-color: #191b1c;
+}
